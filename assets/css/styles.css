@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+.main-nav {
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: right;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .8);
+}
+
+.main-nav > a {
+    height: 100%;
+    padding: 0 2rem;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
+    text-decoration: none;
+}
+
+.main-nav > a:hover {
+    background-color: darkorchid;
+    height: 100%;
+    padding-right: 2rem;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
+    text-decoration: underline;
+}
+
+.inicio {
+    height: 550px;
+    padding: 2rem 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.inicio > img {
+    height: 10rem;
+}
+
+.contents {
+    margin-left: 2rem;
+}
+
+.contents > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.profile {
+    height: 550px;
+    padding: 2rem 8rem;
+}
+
+.education {
+    height: 550px;
+}
+
+.experience {
+    height: 550px;
+}
+
+.habilities {
+    height: 550px;
+}
