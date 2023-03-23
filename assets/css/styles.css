@@ -6,6 +6,8 @@
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -45,10 +47,11 @@ nav {
 }
 
 .inicio {
-    height: 550px;
+    height: 650px;
     padding: 2rem 8rem;
     display: flex;
     align-items: center;
+    scroll-margin: 50px;
 }
 
 .inicio > img {
@@ -68,18 +71,25 @@ nav {
 }
 
 .profile {
-    height: 550px;
+    height: 650px;
     padding: 2rem 8rem;
+    scroll-margin: 50px;
 }
 
 .education {
-    height: 550px;
+    height: 650px;
+    padding: 2rem 8rem;
+    scroll-margin: 50px;
 }
 
 .experience {
-    height: 550px;
+    height: 650px;
+    padding: 2rem 8rem;
+    scroll-margin: 50px;
 }
 
 .habilities {
-    height: 550px;
+    height: 650px;
+    padding: 2rem 8rem;
+    scroll-margin: 50px;
 }
