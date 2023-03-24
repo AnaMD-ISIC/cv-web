@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #47056B;
+    --secondary-color: #5F0A87;
+    --accent-color-1: #822D89;
+    --accent-color-2: #A4508B;
+    --accent-color-3: #B37196;
+    --font-dark: #0C0014;
+    --font-light: #F8F1F6;
+    --backgroun-light: #F8F2F4;
+    --background-dark: #1B0227;
+}
+
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    background-color: darkorchid;
+    background-color: var(--background-dark);
 }
 
 body {
@@ -25,7 +37,7 @@ nav {
 .main-nav {
     height: 60px;
     font-size: 15px;
-    background-color: blueviolet;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: right;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .8);
@@ -34,7 +46,7 @@ nav {
 .main-nav > a {
     height: 100%;
     padding: 0 2rem;
-    color: antiquewhite;
+    color: var(--font-light);
     display: flex;
     align-items: center;
     justify-content: right;
@@ -43,10 +55,10 @@ nav {
 }
 
 .main-nav > a:hover {
-    background-color: darkorchid;
+    background-color: var(--accent-color-1);
     height: 100%;
     padding-right: 2rem;
-    color: antiquewhite;
+    color: var(--font-light);
     display: flex;
     align-items: center;
     justify-content: right;
@@ -94,14 +106,18 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 1rem 0;
+}
+
+.inicio-contact > li {
     font-size: 16px;
+    text-align: center;
 }
 
 .profile {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: antiquewhite;
+    background-color: var(--backgroun-light);
     margin: 0 10rem;
 }
 
@@ -109,7 +125,7 @@ nav {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: antiquewhite;
+    background-color: var(--backgroun-light);
     margin: 0 10rem;
 }
 
@@ -117,7 +133,7 @@ nav {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: antiquewhite;
+    background-color: var(--backgroun-light);
     margin: 0 10rem;
 }
 
@@ -125,7 +141,7 @@ nav {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: antiquewhite;
+    background-color: var(--backgroun-light);
     margin: 0 10rem;
 }
 
@@ -134,7 +150,7 @@ nav {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: palevioletred;
+    background-color: var(--secondary-color);
     width: 50px;
     height: 50px;
     border-radius: 5rem;
@@ -150,7 +166,7 @@ nav {
 }
 
 .scroll-button > a:visited {
-    color: black;
+    color: var(--font-light);
 }
 
 .scroll-button:hover {
@@ -158,7 +174,7 @@ nav {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: rosybrown;
+    background-color: var(--accent-color-1);
     width: 50px;
     height: 50px;
     border-radius: 5rem;
@@ -167,5 +183,5 @@ nav {
     justify-content: center;
     margin: 0;
     padding: 0;
-    box-shadow: 0 0 6px 0 rgba(255, 255, 255, .8);
+    box-shadow: 0 0 6px 0 var(--accent-color-3);
 }
