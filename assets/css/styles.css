@@ -79,7 +79,10 @@ nav {
 }
 
 .inicio > img {
-    height: 20rem;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 10rem;
+    border: solid 6px var(--accent-color-1);
 }
 
 .contents {
@@ -92,6 +95,7 @@ nav {
 
 .contents h2 {
     font-size: 30px;
+    margin-bottom: 1rem;
 }
 
 .contents > h1, h2 {
@@ -109,7 +113,12 @@ nav {
 .contents > li {
     display: flex;
     justify-content: space-around;
-    padding: 1rem 0;
+}
+
+.contents > li, p {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.25rem 0;
 }
 
 .inicio-contact > li {
