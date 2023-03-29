@@ -7,9 +7,12 @@
 :root {
     --primary-color: #47056B;
     --secondary-color: #5F0A87;
-    --accent-color-1: #822D89;
-    --accent-color-2: #A4508B;
-    --accent-color-3: #B37196;
+    --accent-color-1: #822d89;
+    --accent-color-2: #a4508b;
+    --accent-color-3: #b37196;
+    --accent-transparent-1: rgb(130, 45, 137, 0.6);
+    --accent-transparent-2: rgb(164, 80, 139, 0.6);
+    --accent-transparent-3: rgb(179, 113, 150, 0.6);
     --font-dark: #0C0014;
     --font-light: #F8F1F6;
     --backgroun-light: #F8F2F4;
@@ -40,10 +43,11 @@ nav {
 
 h3 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     letter-spacing: 5px;
     color: var(--font-dark);
+    text-transform: uppercase;
 }
 
 .dropdown {
@@ -147,6 +151,16 @@ h3 {
     margin: 0 8rem;
 }
 
+.profile > p {
+    font-size: 26px;
+    font-weight: 100;
+    text-align: justify;
+    color: var(--font-dark);
+    margin-top: 2rem;
+    padding: 3rem;
+    border: double 6px var(--accent-color-2);
+}
+
 .education {
     height: 650px;
     padding: 2rem 8rem;
@@ -155,12 +169,85 @@ h3 {
     margin: 0 8rem;
 }
 
+.education > h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--font-dark);
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 2px var(--accent-color-1);
+}
+
+.education > h5 {
+    color: var(--font-dark);
+    font-size: 15px;
+    margin-top: 0.5rem;
+}
+
 .experience {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
     background-color: var(--backgroun-light);
     margin: 0 8rem;
+}
+
+.blocks {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.blocks > section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 400px;
+    margin: 2rem 0 ;
+    padding: 2rem;
+    background: linear-gradient(to right, var(--accent-transparent-1), var(--accent-transparent-3)),  url(../img/bg-section-1.jpg);
+    background-size: cover;
+}
+
+.blocks-section > h3, h4, h5, h6, ul, p {
+    color: var(--font-light);
+}
+
+.blocks-section > h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.blocks-section > h3, h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+}
+
+.blocks-section > h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.blocks-section > h6 {
+    font-size: 14px;
+    border-bottom: solid 1px var(--backgroun-light);
+}
+
+.blocks-section > ul {
+    list-style: disc;
+    padding-left: 3rem;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+.blocks-section > p {
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 0.75rem;
 }
 
 .habilities {
