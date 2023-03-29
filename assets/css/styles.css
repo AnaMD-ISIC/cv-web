@@ -15,7 +15,7 @@
     --accent-transparent-3: rgb(179, 113, 150, 0.6);
     --font-dark: #0C0014;
     --font-light: #F8F1F6;
-    --backgroun-light: #F8F2F4;
+    --background-light: #F8F2F4;
     --background-dark: #1B0227;
     --background-default: #120133;
 }
@@ -147,7 +147,7 @@ h3 {
     height: 650px;
     padding: 4rem 8rem;
     scroll-margin: 60px;
-    background-color: var(--backgroun-light);
+    background-color: var(--background-light);
     margin: 0 8rem;
 }
 
@@ -165,7 +165,7 @@ h3 {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: var(--backgroun-light);
+    background-color: var(--background-light);
     margin: 0 8rem;
 }
 
@@ -190,7 +190,7 @@ h3 {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: var(--backgroun-light);
+    background-color: var(--background-light);
     margin: 0 8rem;
 }
 
@@ -234,7 +234,7 @@ h3 {
 
 .blocks-section > h6 {
     font-size: 14px;
-    border-bottom: solid 1px var(--backgroun-light);
+    border-bottom: solid 1px var(--background-light);
 }
 
 .blocks-section > ul {
@@ -253,7 +253,7 @@ h3 {
     height: 650px;
     padding: 2rem 8rem;
     scroll-margin: 60px;
-    background-color: var(--backgroun-light);
+    background-color: var(--background-light);
     margin: 0 8rem;
 }
 
@@ -268,7 +268,7 @@ h3 {
 .level-bar_bg {
     width: 100%;
     height: 1rem;
-    background-color: var(--background-dark);
+    background-color: var(--primary-color);
     position: relative;
     top: 0;
     left: 0;
@@ -277,7 +277,7 @@ h3 {
 .level-bar_bar {
     width: 80%;
     height: 1rem;
-    background-color: var(--backgroun-light);
+    background-color: var(--background-light);
     position: relative;
     top: 0rem;
     left: 0rem;
@@ -534,28 +534,28 @@ h3 {
     .profile {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 2rem;
     }
     
     .education {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 2rem;
     }
     
     .experience {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 2rem;
     }
     
     .habilities {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 2rem;
     }
 
@@ -647,28 +647,28 @@ h3 {
     .profile {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 1rem;
     }
     
     .education {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 1rem;
     }
     
     .experience {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 1rem;
     }
     
     .habilities {
         height: 100%;
         scroll-margin: 60px;
-        background-color: var(--backgroun-light);
+        background-color: var(--background-light);
         margin: 0 1rem;
     }
 
